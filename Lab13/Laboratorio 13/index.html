@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css" />
+</head>
+<body>
+  <header>
+    TASK MANAGER
+  </header>
+
+  <div class="contenedor_principal">
+
+    <div class="primera_columna">
+      <div class="interact">
+        <input placeholder="Escribe tu tarea aquí" id="task-input" />
+        <button onclick="createTask()">Publicar</button>
+      </div>
+      <h1 class="tittletask">TO DO</h1>
+      <div id="todo">
+  
+      </div>
+    </div>
+
+    <div class="segunda_columna">
+      <h1 class="tittletask">DOING</h1>
+      <div id="doing">
+
+      </div>
+    </div>
+
+    <div class="tercera_columna">
+      <h1 class="tittletask">DONE</h1>
+      <div  id="done">
+
+      </div>
+    </div>
+
+  </div>
+
+  <script src="./Task.js"></script>
+  <script src="./index.js"></script>
+</body>
+</html>

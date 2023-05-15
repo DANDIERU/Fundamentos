@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    background: gray;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+
+.task {
+    margin: 8px;
+    padding: 8px;
+    width: 260px;
+    background-color: rgb(202, 202, 202);
+    border-radius: 10px;
+
+}
+
+.contenedor_principal {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-top: 15px;
+}
+.interact {
+    margin-top: 10px;
+    margin-left: 8px;
+    
+}
+.interact input {
+    border: 1px solid;
+    
+    border-radius: 8px;
+    width: 200px;
+    height: 32px;
+}
+
+.interact button {
+    border: none;
+    background: rgb(123, 123, 179);
+    border-radius: 8px;
+    width: 80px;
+    height: 32px;
+}
+
+.primera_columna {
+    background: whitesmoke;
+    border-radius: 10px;
+    margin-left: 8px;
+    width: 300px;
+}
+
+.segunda_columna {
+    background: whitesmoke;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.tercera_columna {
+    background: whitesmoke;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.tittletask {
+    padding-left: 8px;
+}
+
+.task p {
+    margin-bottom: 10px;
+}
+
+.task button {
+    border: none;
+    border-radius: 6px;
+    width: 30px;
+    height: 30px;
+    
+
+}
+
